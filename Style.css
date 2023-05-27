@@ -1,0 +1,161 @@
+@charset "UTF-8";
+<style>
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: Arial;
+  margin: 0;
+	background: #5C5C5C;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position:absolute;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+
+.header {
+  padding: 40px;
+	display: grid;
+  background-repeat: no-repeat;
+	text-align: left;
+	background-size: 100% 100% ;
+  background-image: url('https://lh3.googleusercontent.com/u/0/drive-viewer/AFGJ81rnTEf3_Aw1twkiKz5WQ8P2__S0wuPISn_iXwjHAihouQE6nKiw0_l0XojzYAAccUiY4pvzZYPgWXU_YAHpc878dPW_ng=w1784-h1452');
+  color: 
+	      } 
+
+.header1 {
+  padding: 40px;
+	display: grid;
+  background-repeat: no-repeat;
+	text-align: left;
+	background-size: 100%  ;
+  background-image: url('https://lh3.googleusercontent.com/u/0/drive-viewer/AFGJ81oEgaeYgTQLBGDc7IEncZqKqYcGaBJbuhXV_Z6I-cS3NPNMLxdf-4ouIlnVv_5NWFKEuDJooatjCNljD0eH8PjuDLMX=w2880-h1640');
+  color: 
+	      } 
+.header2 {
+  padding: 40px;
+	display: grid;
+  background-repeat: no-repeat;
+	text-align: left;
+	background-size: 100% ;
+  background-image: url('https://lh3.googleusercontent.com/u/0/drive-viewer/AFGJ81pY_GR7Bq6yL4svnfz8G_pfLkO0FKBXY2nLlUEZwV_r_zwi0q_wwgLf3RWJljxzhGh9cVnzxuqg9jffaYC_pDfASqYw=w2880-h1640');
+  color: 
+	      } 
+	  .wrapper {
+        max-width: 960px;
+       margin: 2em auto;
+}
+	 .column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+div.transbox {
+  margin: 30px;
+  background-color:aliceblue;
+	display: grid;
+  width: 500px;
+  border: 1px solid white;
+  opacity: 0.6;
+}
+
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  right: 50%;
+  color: #0000-00;
+}
+
+
+.row {  
+  display: flex;
+	background-image: url("https://drive.google.com/file/d/1yZcMQmwQuFAA60ZHcwXydtI2bjejMN6R/preview" width="640" height="480" allow="autoplay");
+  flex-wrap: wrap;
+	width: 
+}
+
+
+
+.side {
+  flex: 30%;
+	width: 300px;
+  background-color: black;
+  padding: 20px;
+}
+
+.side1 {
+  padding: 20px;
+	align-items: center;
+  width: 600px;
+  resize: both;
+  overflow: auto;
+  background-color: black;
+  padding: 20px;
+}
+
+.side2 {
+	
+  padding: 20px;
+	align-items: center;
+  width: 600px;
+	text-align: left;
+  resize: both;
+  overflow: auto;
+  background-color: black;
+  padding: 20px;
+}
+
+.main {
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+
+.fakeimg1 {
+		background-image: url('https://lh3.googleusercontent.com/u/0/drive-viewer/AFGJ81oPNk7fWV8BVD7CwxLaQoqt4oFh7H8DCgydNJ_7GaS5ObzbosEDJmBZYU9bf6pPQjZrjNBlnz-WspY74rO7AL2Srb01pQ=w2398-h1452');
+  width: 100%;
+	height: 80%;
+  padding: 20px;
+	align-items: center; 
+	right: 20" 
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+
+@media screen (max-width: 700px) {
+  .row, .navbar {   
+    flex-direction: column;
+	  
